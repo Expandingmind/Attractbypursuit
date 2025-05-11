@@ -31,7 +31,7 @@ export default function Home() {
             <Link href="#testimonials" className="font-medium text-white hover:text-primary transition-colors">
               Testimonials
             </Link>
-            <Link href="#download" className="bg-gradient-to-r from-purple-glow to-primary text-white font-medium py-2 px-6 rounded-lg hover:from-purple-900 hover:to-primary/90 transition-all duration-300">
+            <Link href="#download" className="btn-primary">
               Download Now
             </Link>
           </nav>

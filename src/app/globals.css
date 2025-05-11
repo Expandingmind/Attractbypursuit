@@ -134,12 +134,10 @@ body {
 }
 
 .download-button-hero {
-  @apply relative inline-flex justify-center items-center px-6 py-3 text-white font-medium rounded-lg shadow-xl transition-all duration-300;
-  background: linear-gradient(90deg, #4C1D95 0%, #4ADE80 100%);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-  z-index: 1;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(74, 222, 128, 0.2);
+  @apply relative inline-flex justify-center items-center px-8 py-3 text-white font-medium rounded-xl shadow-xl transition-all duration-300;
+  background: #6366f1; /* Indigo color to match the screenshot */
+  border: none;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
 }
 
 .download-button-hero::before {
@@ -155,8 +153,9 @@ body {
 }
 
 .download-button-hero:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 0 15px rgba(74, 222, 128, 0.4);
+  background: #4f46e5; /* Slightly darker on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(99, 102, 241, 0.4);
 }
 
 .download-button-hero:hover::before {
@@ -207,11 +206,23 @@ body {
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-purple-glow to-primary text-white font-medium py-3 px-6 rounded-lg hover:from-purple-900 hover:to-primary/90 transition-all duration-300 shadow-lg hover:shadow-primary/20 hover:shadow-xl;
+    @apply relative inline-flex justify-center items-center px-8 py-3 text-white font-medium rounded-xl shadow-xl transition-all duration-300;
+    background: #6366f1; /* Indigo color to match the screenshot */
+    border: none;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.3);
   }
   
   .btn-secondary {
-    @apply bg-transparent text-white font-medium py-3 px-6 rounded-lg border border-white hover:bg-white/10 transition-all duration-300;
+    @apply relative inline-flex justify-center items-center px-8 py-3 font-medium rounded-xl transition-all duration-300;
+    background: transparent;
+    border: 2px solid #6366f1; /* Indigo border */
+    color: #6366f1; /* Indigo text */
+  }
+  
+  .btn-secondary:hover {
+    background: rgba(99, 102, 241, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(99, 102, 241, 0.15);
   }
   
   .section {
