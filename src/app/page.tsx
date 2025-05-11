@@ -62,7 +62,7 @@ export default function Home() {
               Attract By Pursuit is your personal companion to track finances, build better habits, and achieve your goals with powerful tools.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 fade-in-delay-2">
-              <Link href="#download" className="btn-primary">
+              <Link href="#download" className="download-button-hero">
                 Download Now
               </Link>
               <Link href="#features" className="btn-secondary">
@@ -153,7 +153,7 @@ export default function Home() {
           
           <div className="flex flex-nowrap overflow-x-auto pb-8 gap-6 px-4 -mx-4 scrollbar-hide">
             <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/login-screen.png" 
                   alt="Login Screen" 
@@ -166,7 +166,7 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/net-worth-summary.png" 
                   alt="Net Worth" 
@@ -179,7 +179,7 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/IMG_8652.PNG" 
                   alt="Bills & Expenses" 
@@ -192,7 +192,7 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/IMG_8655.PNG" 
                   alt="Habits & Goals" 
@@ -205,7 +205,7 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/IMG_8654.PNG" 
                   alt="Task Tracker" 
@@ -298,8 +298,8 @@ export default function Home() {
           </p>
           
           <div className="flex justify-center mb-16">
-            <a href="#" className="bg-black text-white px-8 py-4 rounded-xl border border-gray-700 flex items-center justify-center hover:bg-gray-900 transition-all duration-300 hover:scale-105 shadow-lg shadow-black/30 group">
-              <div className="mr-3 bg-white rounded-full p-1 group-hover:bg-primary transition-colors duration-300">
+            <a href="#" className="download-button flex items-center justify-center gap-3 relative">
+              <div className="mr-1 bg-white rounded-full p-1 transform group-hover:scale-110 transition-transform">
                 <svg className="h-8 w-8" viewBox="0 0 24 24" fill="currentColor" color="black">
                   <path d="M16.3,1.4C15.9,1.3 15.5,1.2 15.1,1.1C14.5,1 13.9,0.9 13.3,0.9C12.7,0.9 12.1,1 11.5,1.1C10.9,1.2 10.3,1.4 9.8,1.6C8.2,2.3 6.9,3.5 6.1,5C5.4,6.5 5.2,8.2 5.5,9.9C5.8,11.6 6.7,13.1 8,14.2C9.3,15.3 11,15.9 12.7,15.9C14.4,15.9 16.1,15.3 17.4,14.3C18.7,13.2 19.6,11.7 19.9,10C20.2,8.3 19.9,6.6 19.2,5.1C18.4,3.6 17.6,2.1 16.3,1.4Z" />
                   <path d="M22,9.9C22,13.9 20.6,17.8 18.1,20.8C15.7,23.8 12.4,25.5 8.9,25.8C5.4,26.1 2,24.9 -0.5,22.6C-3,20.3 -4.4,17 -4.4,13.5C-4.4,10 -3,6.7 -0.5,4.4C2,2.1 5.4,0.9 8.9,1.2C12.4,1.5 15.7,3.2 18.1,6.2C20.6,9.2 22,13.1 22,17.1V9.9Z" />
