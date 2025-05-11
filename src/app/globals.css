@@ -65,6 +65,16 @@ body {
   position: relative;
   border: 2px solid rgba(74, 222, 128, 0.3);
   transition: all 0.4s ease;
+  aspect-ratio: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshot-glow img {
+  object-fit: contain;
+  max-height: 100%;
+  width: auto;
 }
 
 .screenshot-glow:hover {

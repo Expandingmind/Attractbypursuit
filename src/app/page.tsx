@@ -152,69 +152,69 @@ export default function Home() {
           </div>
           
           <div className="flex flex-nowrap overflow-x-auto pb-8 gap-6 px-4 -mx-4 scrollbar-hide">
-            <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/login-screen.png" 
                   alt="Login Screen" 
-                  width={280} 
-                  height={560}
+                  width={250} 
+                  height={500}
                   className="w-full"
                 />
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Login & Authentication</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Account Overview</p>
             </div>
             
-            <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/net-worth-summary.png" 
                   alt="Net Worth" 
-                  width={280} 
-                  height={560}
+                  width={250}
+                  height={500}
                   className="w-full"
                 />
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Track Your Net Worth</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Net Worth Tracking</p>
             </div>
             
-            <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/IMG_8652.PNG" 
                   alt="Bills & Expenses" 
-                  width={280} 
-                  height={560}
+                  width={250}
+                  height={500}
                   className="w-full"
                 />
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Manage Your Expenses</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Bills & Expenses</p>
             </div>
             
-            <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/IMG_8655.PNG" 
                   alt="Habits & Goals" 
-                  width={280} 
-                  height={560}
+                  width={250}
+                  height={500}
                   className="w-full"
                 />
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Build Better Habits</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Habits & Goal Tracking</p>
             </div>
             
-            <div className="flex-shrink-0 w-[280px] transform hover:scale-[1.03] transition-all duration-500">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
                 <Image 
                   src="/images/screenshots/IMG_8654.PNG" 
                   alt="Task Tracker" 
-                  width={280} 
-                  height={560}
+                  width={250}
+                  height={500}
                   className="w-full"
                 />
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Stay On Task</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Task Management</p>
             </div>
           </div>
         </div>
