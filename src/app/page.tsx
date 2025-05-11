@@ -72,8 +72,8 @@ export default function Home() {
           <div className="md:w-1/2 flex justify-center md:justify-end fade-in-delay-3">
             <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-700">
               <Image 
-                src="/images/screenshots/IMG_8655.PNG" 
-                alt="Attract By Pursuit Habits & Goals" 
+                src="/images/screenshots/IMG_8652.PNG" 
+                alt="Attract By Pursuit Bills & Expenses" 
                 width={300} 
                 height={600}
                 className="w-full h-full object-contain rounded-[32px]"
