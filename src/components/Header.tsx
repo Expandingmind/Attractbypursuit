@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const Header = () => {
@@ -11,6 +12,12 @@ const Header = () => {
       <div className="container-custom py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
+            <Image 
+              src="/images/logo.svg" 
+              alt="Attract By Pursuit" 
+              width={36} 
+              height={36} 
+            />
             <span className="text-2xl font-bold text-primary">Attract By Pursuit</span>
           </Link>
 
@@ -32,7 +39,7 @@ const Header = () => {
               Terms of Service
             </Link>
             <Link href="#contact" className="btn-primary">
-              Get Started
+              Download
             </Link>
           </nav>
 
@@ -72,7 +79,7 @@ const Header = () => {
               Terms of Service
             </Link>
             <Link href="#contact" className="block btn-primary text-center">
-              Get Started
+              Download
             </Link>
           </nav>
         )}

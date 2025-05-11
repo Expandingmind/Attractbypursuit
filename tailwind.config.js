@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#8A2BE2', // Purple (BlueViolet)
-        secondary: '#6A0DAD', // Darker purple
+        primary: '#4ADE80', // Green color from app
+        secondary: '#22C55E', // Darker green
         dark: '#121212', // Near black
         light: '#F8F8F8' // Off-white
       },
