@@ -69,9 +69,9 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="md:w-1/2 flex justify-center md:justify-start fade-in-delay-3">
-            <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-700">
-              <div className="absolute -bottom-10 -left-10 -right-10 h-20 bg-primary/20 rounded-full filter blur-2xl animate-pulse"></div>
+          <div className="md:w-1/2 flex justify-center md:justify-center fade-in-delay-3">
+            <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-visible transform hover:scale-[1.02] transition-all duration-700">
+              <div className="absolute -bottom-5 left-0 right-0 w-full h-20 bg-primary/40 rounded-full filter blur-xl animate-pulse"></div>
               <Image 
                 src="/images/screenshots/IMG_8652.PNG" 
                 alt="Attract By Pursuit Bills & Expenses" 
