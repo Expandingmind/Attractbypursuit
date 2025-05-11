@@ -7,12 +7,12 @@ export default function Home() {
       {/* Header Navigation */}
       <header className="fixed w-full z-50 bg-deep-blue/95 backdrop-blur-sm">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2 group">
+          <Link href="/" className="flex items-center space-x-3 group">
             <Image 
-              src="/images/logo.svg" 
+              src="/images/logo for ABP.png" 
               alt="Attract By Pursuit" 
-              width={40} 
-              height={40}
+              width={44} 
+              height={44}
               className="group-hover:scale-110 transition-transform duration-300" 
             />
             <span className="text-2xl font-bold text-white">Attract By Pursuit</span>
@@ -308,10 +308,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-8 md:mb-0">
               <Image 
-                src="/images/logo.svg" 
+                src="/images/logo for ABP.png" 
                 alt="Attract By Pursuit" 
-                width={40} 
-                height={40} 
+                width={44} 
+                height={44} 
                 className="mr-3"
               />
               <div>
