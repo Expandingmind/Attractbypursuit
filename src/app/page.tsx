@@ -30,8 +30,8 @@ export default function Home() {
           <div className="md:w-1/2 relative flex justify-center">
             <div className="relative w-[280px] h-[580px] bg-black rounded-[40px] border-4 border-gray-800 shadow-2xl overflow-hidden">
               <Image 
-                src="/images/app-mockup.png" 
-                alt="App Screenshot" 
+                src="/images/screenshots/login-screen.png" 
+                alt="Attract By Pursuit Login Screen" 
                 width={280} 
                 height={580}
                 className="w-full rounded-[32px]"
@@ -115,46 +115,80 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            <div className="screenshot-card">
-              <Image 
-                src="/images/net-worth.png" 
-                alt="Net Worth Tracking" 
-                width={300} 
-                height={600}
-                className="w-full" 
-              />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+            <div className="flex flex-col space-y-8">
+              <div className="screenshot-card">
+                <h3 className="heading-md mb-4 text-primary text-center">Financial Tracking</h3>
+                <div className="relative w-[280px] h-[580px] bg-black mx-auto rounded-[40px] border-4 border-gray-800 shadow-2xl overflow-hidden">
+                  <Image 
+                    src="/images/screenshots/net-worth-summary.png" 
+                    alt="Net Worth Summary" 
+                    width={280} 
+                    height={580}
+                    className="w-full rounded-[32px]"
+                  />
+                </div>
+                <p className="text-gray-300 text-center mt-4">
+                  Track your total net worth with assets and liabilities in one view
+                </p>
+              </div>
+              
+              <div className="screenshot-card">
+                <h3 className="heading-md mb-4 text-primary text-center">Bills & Expenses</h3>
+                <div className="relative w-[280px] h-[580px] bg-black mx-auto rounded-[40px] border-4 border-gray-800 shadow-2xl overflow-hidden">
+                  <Image 
+                    src="/images/screenshots/bills-expenses.png" 
+                    alt="Bills & Expenses" 
+                    width={280} 
+                    height={580}
+                    className="w-full rounded-[32px]"
+                  />
+                </div>
+                <p className="text-gray-300 text-center mt-4">
+                  Never miss a bill payment with organized monthly expense tracking
+                </p>
+              </div>
             </div>
             
-            <div className="screenshot-card">
-              <Image 
-                src="/images/bills.png" 
-                alt="Bills & Expenses" 
-                width={300} 
-                height={600}
-                className="w-full" 
-              />
+            <div className="flex flex-col space-y-8">
+              <div className="screenshot-card">
+                <h3 className="heading-md mb-4 text-primary text-center">Habits & Goals</h3>
+                <div className="relative w-[280px] h-[580px] bg-black mx-auto rounded-[40px] border-4 border-gray-800 shadow-2xl overflow-hidden">
+                  <Image 
+                    src="/images/screenshots/habits-goals-details.png" 
+                    alt="Habits & Goals" 
+                    width={280} 
+                    height={580}
+                    className="w-full rounded-[32px]"
+                  />
+                </div>
+                <p className="text-gray-300 text-center mt-4">
+                  Build better habits and track progress toward your goals
+                </p>
+              </div>
+              
+              <div className="screenshot-card">
+                <h3 className="heading-md mb-4 text-primary text-center">Task Tracker</h3>
+                <div className="relative w-[280px] h-[580px] bg-black mx-auto rounded-[40px] border-4 border-gray-800 shadow-2xl overflow-hidden">
+                  <Image 
+                    src="/images/screenshots/task-tracker-list.png" 
+                    alt="Task Tracker" 
+                    width={280} 
+                    height={580}
+                    className="w-full rounded-[32px]"
+                  />
+                </div>
+                <p className="text-gray-300 text-center mt-4">
+                  Organize your tasks and manage them effectively
+                </p>
+              </div>
             </div>
-            
-            <div className="screenshot-card">
-              <Image 
-                src="/images/habits.png" 
-                alt="Habits & Goals" 
-                width={300} 
-                height={600}
-                className="w-full" 
-              />
-            </div>
-            
-            <div className="screenshot-card">
-              <Image 
-                src="/images/tasks.png" 
-                alt="Task Tracker" 
-                width={300} 
-                height={600}
-                className="w-full" 
-              />
-            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <Link href="#download" className="btn-primary">
+              Download Now
+            </Link>
           </div>
         </div>
       </section>
