@@ -13,10 +13,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 group">
             <Image 
-              src="/images/logo.svg" 
+              src="/images/logo-abp.png" 
               alt="Attract By Pursuit" 
-              width={36} 
-              height={36}
+              width={44} 
+              height={44}
               className="group-hover:scale-110 transition-transform duration-300" 
             />
             <span className="text-2xl font-bold text-primary">Attract By Pursuit</span>

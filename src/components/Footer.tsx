@@ -11,10 +11,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <Image 
-                src="/images/logo.svg" 
+                src="/images/logo-abp.png" 
                 alt="Attract By Pursuit" 
-                width={40} 
-                height={40} 
+                width={44} 
+                height={44} 
                 className="mr-3"
               />
               <h3 className="text-xl font-bold text-primary">Attract By Pursuit</h3>
@@ -104,13 +104,6 @@ const Footer = () => {
                   <path d="M22,9.9C22,13.9 20.6,17.8 18.1,20.8C15.7,23.8 12.4,25.5 8.9,25.8C5.4,26.1 2,24.9 -0.5,22.6C-3,20.3 -4.4,17 -4.4,13.5C-4.4,10 -3,6.7 -0.5,4.4C2,2.1 5.4,0.9 8.9,1.2C12.4,1.5 15.7,3.2 18.1,6.2C20.6,9.2 22,13.1 22,17.1V9.9Z" />
                 </svg>
                 App Store
-              </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors flex items-center">
-                <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3,20.5V3.5C3,2.9 3.25,2.3 3.7,1.8C4.15,1.3 4.8,1 5.5,1H18.5C19.2,1 19.85,1.3 20.3,1.8C20.75,2.3 21,2.9 21,3.5V20.5C21,21.1 20.75,21.7 20.3,22.2C19.85,22.7 19.2,23 18.5,23H5.5C4.8,23 4.15,22.7 3.7,22.2C3.25,21.7 3,21.1 3,20.5Z" />
-                  <path d="M15,5.5L12,2L9,5.5M9,18.5L12,22L15,18.5" />
-                </svg>
-                Google Play
               </a>
               <Link 
                 href="#download" 
