@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 248, 248, 248;
-  --background-rgb: 15, 23, 41;
+  --foreground-rgb: 240, 240, 240;
+  --background-rgb: 8, 15, 31;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 248, 248, 248;
-    --background-rgb: 15, 23, 41;
+    --foreground-rgb: 240, 240, 240;
+    --background-rgb: 8, 15, 31;
   }
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(15, 23, 41, 0.6);
+  background: rgba(8, 15, 31, 0.8);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -78,7 +78,7 @@ body {
   }
 
   .text-shadow {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .text-shadow-glow {
@@ -92,7 +92,7 @@ body {
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-purple-500 to-primary text-white font-medium py-3 px-6 rounded-lg hover:from-purple-600 hover:to-primary/90 transition-all duration-300 shadow-lg hover:shadow-primary/20 hover:shadow-xl;
+    @apply bg-gradient-to-r from-purple-glow to-primary text-white font-medium py-3 px-6 rounded-lg hover:from-purple-900 hover:to-primary/90 transition-all duration-300 shadow-lg hover:shadow-primary/20 hover:shadow-xl;
   }
   
   .btn-secondary {
@@ -116,7 +116,7 @@ body {
   }
   
   .feature-card {
-    @apply bg-gray-900/50 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2;
+    @apply bg-gray-900/60 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2;
   }
   
   .feature-icon {
@@ -124,18 +124,18 @@ body {
   }
   
   .screenshot-card {
-    @apply bg-gray-900/50 rounded-2xl shadow-xl border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-300;
+    @apply bg-gray-900/60 rounded-2xl shadow-xl border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-300;
   }
   
   .testimonial-card {
-    @apply bg-gray-900/50 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2;
+    @apply bg-gray-900/60 p-8 rounded-2xl shadow-xl backdrop-blur-sm border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2;
   }
 
   .glass-card {
-    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl;
+    @apply bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl;
   }
   
   .gradient-text {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400;
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-glow;
   }
 } 

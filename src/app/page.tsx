@@ -31,7 +31,7 @@ export default function Home() {
             <Link href="#testimonials" className="font-medium text-white hover:text-primary transition-colors">
               Testimonials
             </Link>
-            <Link href="#download" className="bg-gradient-to-r from-purple-500 to-primary text-white font-medium py-2 px-6 rounded-lg hover:from-purple-600 hover:to-primary/90 transition-all duration-300">
+            <Link href="#download" className="bg-gradient-to-r from-purple-glow to-primary text-white font-medium py-2 px-6 rounded-lg hover:from-purple-900 hover:to-primary/90 transition-all duration-300">
               Download Now
             </Link>
           </nav>
@@ -51,13 +51,13 @@ export default function Home() {
       </header>
       
       {/* Hero Section with Gradient Background */}
-      <section className="pt-24 bg-gradient-to-br from-deep-blue via-purple-900/40 to-deep-blue">
+      <section className="pt-24 bg-gradient-to-br from-deep-blue via-deep-purple to-deep-blue">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 flex flex-col-reverse md:flex-row items-center">
           <div className="md:w-1/2 mt-12 md:mt-0">
             <h1 className="heading-xl mb-6 leading-tight fade-in">
               Take Control of Your <span className="gradient-text">Financial Journey</span>
             </h1>
-            <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-primary my-8 fade-in-delay-1"></div>
+            <div className="h-1 w-24 bg-gradient-to-r from-purple-glow to-primary my-8 fade-in-delay-1"></div>
             <p className="text-xl text-gray-300 mb-8 fade-in-delay-1">
               Attract By Pursuit is your personal companion to track finances, build better habits, and achieve your goals with powerful tools.
             </p>
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-2 text-shadow">Powerful Features</h2>
-            <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-primary mx-auto mb-8"></div>
+            <div className="h-1 w-24 bg-gradient-to-r from-purple-glow to-primary mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Everything you need to take control of your financial life and build better habits
             </p>
@@ -142,12 +142,12 @@ export default function Home() {
       </section>
       
       {/* App Screenshots Section */}
-      <section id="screenshots" className="bg-deep-blue/80 py-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-b from-deep-blue/0 via-purple-900/5 to-deep-blue/0"></div>
+      <section id="screenshots" className="bg-deep-blue/90 py-20 relative">
+        <div className="absolute inset-0 bg-gradient-to-b from-deep-blue/0 via-deep-purple/5 to-deep-blue/0"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-2 text-shadow">App Screenshots</h2>
-            <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-primary mx-auto mb-8"></div>
+            <div className="h-1 w-24 bg-gradient-to-r from-purple-glow to-primary mx-auto mb-8"></div>
             <p className="text-gray-300 mb-8">See how Attract By Pursuit helps you track your finances and build better habits.</p>
           </div>
           
@@ -226,7 +226,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-2 text-shadow">What Our Users Say</h2>
-            <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-primary mx-auto mb-8"></div>
+            <div className="h-1 w-24 bg-gradient-to-r from-purple-glow to-primary mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-16">
               Thousands of people are already improving their finances with Attract By Pursuit
             </p>
@@ -235,7 +235,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="testimonial-card group">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-purple-500 to-primary flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-500">
+                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-purple-glow to-primary flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-500">
                   MT
                 </div>
                 <div>
@@ -252,7 +252,7 @@ export default function Home() {
             
             <div className="testimonial-card group">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-purple-500 to-primary flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-500">
+                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-purple-glow to-primary flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-500">
                   SK
                 </div>
                 <div>
@@ -269,7 +269,7 @@ export default function Home() {
             
             <div className="testimonial-card group">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-purple-500 to-primary flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-500">
+                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-purple-glow to-primary flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-500">
                   JW
                 </div>
                 <div>
@@ -288,11 +288,11 @@ export default function Home() {
       </section>
       
       {/* Download Section */}
-      <section id="download" className="bg-gradient-to-br from-purple-900/40 via-deep-blue to-deep-blue py-32 relative overflow-hidden">
+      <section id="download" className="bg-gradient-to-br from-deep-purple/40 via-deep-blue to-deep-blue py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] bg-repeat opacity-5"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-4xl font-bold text-white mb-2 text-shadow">Ready to Take Control?</h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-primary mx-auto mb-8"></div>
+          <div className="h-1 w-24 bg-gradient-to-r from-purple-glow to-primary mx-auto mb-8"></div>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             Download Attract By Pursuit today on your iPhone and start your journey to financial freedom.
           </p>

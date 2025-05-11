@@ -10,9 +10,11 @@ module.exports = {
       colors: {
         primary: '#4ADE80', // Green color from app
         secondary: '#22C55E', // Darker green
-        'deep-blue': '#0F1729', // Dark blue color like SnapOut
-        dark: '#121212', // Near black
-        light: '#F8F8F8' // Off-white
+        'deep-blue': '#080F1F', // Darker blue background
+        'deep-purple': '#2A1546', // Dark purple for accents
+        'purple-glow': '#4C1D95', // Darker purple for gradients
+        dark: '#0A0A0A', // Even darker near black
+        light: '#F0F0F0' // Slightly darker off-white
       },
     },
   },
