@@ -72,13 +72,20 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-hidden">
-              <Image 
-                src="/images/screenshots/login-screen.png" 
-                alt="Attract By Pursuit Login Screen" 
-                width={300} 
-                height={600}
-                className="w-full h-full object-cover rounded-[32px]"
-              />
+              <div className="w-full h-full bg-deep-blue/50 flex items-center justify-center rounded-[32px]">
+                <div className="text-center p-8">
+                  <div className="w-24 h-24 mx-auto mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" className="w-full h-full">
+                      <polygon fill="#4ADE80" points="32,4 4,32 32,60 60,32" />
+                      <polygon fill="rgba(74,222,128,0.5)" points="32,10 10,32 32,54 54,32" />
+                      <polygon fill="rgba(74,222,128,0.3)" points="32,16 16,32 32,48 48,32" />
+                      <polygon fill="rgba(74,222,128,0.1)" points="32,22 22,32 32,42 42,32" />
+                    </svg>
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Attract By Pursuit</h3>
+                  <p className="text-primary font-medium">Create Your Luck</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -154,66 +161,88 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-2">App Screenshots</h2>
             <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-primary mx-auto mb-8"></div>
+            <p className="text-gray-300 mb-8">See how Attract By Pursuit helps you track your finances and build better habits.</p>
           </div>
           
           <div className="flex flex-nowrap overflow-x-auto pb-8 gap-6 px-4 -mx-4 scrollbar-hide">
             <div className="flex-shrink-0 w-[280px]">
               <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
-                <Image 
-                  src="/images/screenshots/login-screen.png" 
-                  alt="Login Screen" 
-                  width={280} 
-                  height={560}
-                  className="w-full"
-                />
+                <div className="w-full h-[560px] bg-deep-blue/50 flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">Login Screen</h3>
+                    <p className="text-gray-400">Secure authentication with modern design</p>
+                  </div>
+                </div>
               </div>
             </div>
             
             <div className="flex-shrink-0 w-[280px]">
               <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
-                <Image 
-                  src="/images/screenshots/net-worth-summary.png" 
-                  alt="Net Worth" 
-                  width={280} 
-                  height={560}
-                  className="w-full"
-                />
+                <div className="w-full h-[560px] bg-deep-blue/50 flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">Net Worth</h3>
+                    <p className="text-gray-400">Track assets and liabilities in one place</p>
+                  </div>
+                </div>
               </div>
             </div>
             
             <div className="flex-shrink-0 w-[280px]">
               <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
-                <Image 
-                  src="/images/screenshots/bills-expenses.png" 
-                  alt="Bills & Expenses" 
-                  width={280} 
-                  height={560}
-                  className="w-full"
-                />
+                <div className="w-full h-[560px] bg-deep-blue/50 flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">Bills & Expenses</h3>
+                    <p className="text-gray-400">Never miss a payment again</p>
+                  </div>
+                </div>
               </div>
             </div>
             
             <div className="flex-shrink-0 w-[280px]">
               <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
-                <Image 
-                  src="/images/screenshots/habits-goals-details.png" 
-                  alt="Habits & Goals" 
-                  width={280} 
-                  height={560}
-                  className="w-full"
-                />
+                <div className="w-full h-[560px] bg-deep-blue/50 flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">Habits & Goals</h3>
+                    <p className="text-gray-400">Build lasting habits and achieve your goals</p>
+                  </div>
+                </div>
               </div>
             </div>
             
             <div className="flex-shrink-0 w-[280px]">
               <div className="bg-[#14141f] rounded-3xl overflow-hidden shadow-xl">
-                <Image 
-                  src="/images/screenshots/task-tracker-list.png" 
-                  alt="Task Tracker" 
-                  width={280} 
-                  height={560}
-                  className="w-full"
-                />
+                <div className="w-full h-[560px] bg-deep-blue/50 flex items-center justify-center">
+                  <div className="text-center p-6">
+                    <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center mx-auto">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                      </svg>
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-2">Task Tracker</h3>
+                    <p className="text-gray-400">Organize your tasks efficiently</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
