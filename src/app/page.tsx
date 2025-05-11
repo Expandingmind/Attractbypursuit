@@ -99,7 +99,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="feature-card group">
-              <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              <div className="text-5xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                 💰
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Net Worth</h3>
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
             
             <div className="feature-card group">
-              <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              <div className="text-5xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                 💵
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Bills & Expenses</h3>
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
             
             <div className="feature-card group">
-              <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              <div className="text-5xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                 ✅
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Task Tracker</h3>
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
             
             <div className="feature-card group">
-              <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              <div className="text-5xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                 🎯
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Habits & Goals</h3>
