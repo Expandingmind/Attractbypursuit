@@ -54,10 +54,9 @@ export default function Home() {
       <section className="pt-24 bg-gradient-to-br from-deep-blue via-deep-purple to-deep-blue">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 flex flex-col-reverse md:flex-row items-center">
           <div className="md:w-1/2 mt-12 md:mt-0">
-            <h1 className="heading-xl mb-6 leading-tight fade-in">
-              Take Control of Your <span className="gradient-text">Financial Journey</span>
+            <h1 className="heading-xl mb-8 leading-tight fade-in">
+              Take Control of Your <span className="animated-gradient-text">Financial Journey</span>
             </h1>
-            <div className="h-1 w-24 bg-gradient-to-r from-purple-glow to-primary my-8 fade-in-delay-1"></div>
             <p className="text-xl text-gray-300 mb-8 fade-in-delay-1">
               Attract By Pursuit is your personal companion to track finances, build better habits, and achieve your goals with powerful tools.
             </p>
