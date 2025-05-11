@@ -51,13 +51,13 @@ export default function Home() {
       </header>
       
       {/* Hero Section with Gradient Background */}
-      <section className="pt-16 bg-gradient-to-br from-deep-blue via-deep-purple to-deep-blue">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col-reverse md:flex-row items-center">
-          <div className="md:w-1/2 mt-12 md:mt-0">
-            <h1 className="heading-xl mb-8 leading-tight fade-in animated-gradient-text">
+      <section className="pt-10 bg-gradient-to-br from-deep-blue via-deep-purple to-deep-blue">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col-reverse md:flex-row items-center">
+          <div className="md:w-1/2 mt-8 md:mt-0">
+            <h1 className="heading-xl mb-6 leading-tight fade-in animated-gradient-text">
               Take Control of Your Financial Journey
             </h1>
-            <p className="text-xl text-gray-300 mb-8 fade-in-delay-1">
+            <p className="text-xl text-gray-300 mb-6 fade-in-delay-1">
               Attract By Pursuit is your personal companion to track finances, build better habits, and achieve your goals with powerful tools.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 fade-in-delay-2">
