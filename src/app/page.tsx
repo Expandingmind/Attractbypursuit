@@ -19,16 +19,16 @@ export default function Home() {
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="font-medium text-white hover:text-primary transition-colors">
+            <Link href="/" className="nav-link font-medium">
               Home
             </Link>
-            <Link href="#features" className="font-medium text-white hover:text-primary transition-colors">
+            <Link href="#features" className="nav-link font-medium">
               Features
             </Link>
-            <Link href="#screenshots" className="font-medium text-white hover:text-primary transition-colors">
+            <Link href="#screenshots" className="nav-link font-medium">
               Screenshots
             </Link>
-            <Link href="#testimonials" className="font-medium text-white hover:text-primary transition-colors">
+            <Link href="#testimonials" className="nav-link font-medium">
               Testimonials
             </Link>
             <Link href="#download" className="btn-primary">

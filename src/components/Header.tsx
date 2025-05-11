@@ -24,16 +24,16 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="font-medium text-gray-300 hover:text-primary transition-colors">
+            <Link href="/" className="nav-link font-medium">
               Home
             </Link>
-            <Link href="#features" className="font-medium text-gray-300 hover:text-primary transition-colors">
+            <Link href="#features" className="nav-link font-medium">
               Features
             </Link>
-            <Link href="#screenshots" className="font-medium text-gray-300 hover:text-primary transition-colors">
+            <Link href="#screenshots" className="nav-link font-medium">
               Screenshots
             </Link>
-            <Link href="#testimonials" className="font-medium text-gray-300 hover:text-primary transition-colors">
+            <Link href="#testimonials" className="nav-link font-medium">
               Testimonials
             </Link>
             <Link href="#download" className="btn-primary">
@@ -62,16 +62,16 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 space-y-3">
-            <Link href="/" className="block font-medium text-gray-300 hover:text-primary transition-colors py-2">
+            <Link href="/" className="nav-link block font-medium py-2">
               Home
             </Link>
-            <Link href="#features" className="block font-medium text-gray-300 hover:text-primary transition-colors py-2">
+            <Link href="#features" className="nav-link block font-medium py-2">
               Features
             </Link>
-            <Link href="#screenshots" className="block font-medium text-gray-300 hover:text-primary transition-colors py-2">
+            <Link href="#screenshots" className="nav-link block font-medium py-2">
               Screenshots
             </Link>
-            <Link href="#testimonials" className="block font-medium text-gray-300 hover:text-primary transition-colors py-2">
+            <Link href="#testimonials" className="nav-link block font-medium py-2">
               Testimonials
             </Link>
             <Link href="#download" className="block btn-primary text-center mt-4">

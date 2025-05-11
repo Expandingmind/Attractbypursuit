@@ -60,12 +60,12 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 text-primary">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/privacy-policy" className="text-gray-300 hover:text-primary transition-colors">
+                <Link href="/privacy-policy" className="nav-link">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms-of-service" className="text-gray-300 hover:text-primary transition-colors">
+                <Link href="/terms-of-service" className="nav-link">
                   Terms of Service
                 </Link>
               </li>
