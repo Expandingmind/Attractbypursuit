@@ -72,11 +72,11 @@ export default function Home() {
           <div className="md:w-1/2 flex justify-center md:justify-end fade-in-delay-3">
             <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-700">
               <Image 
-                src="/images/screenshots/login-screen.png" 
-                alt="Attract By Pursuit Login Screen" 
+                src="/images/screenshots/IMG_8655.PNG" 
+                alt="Attract By Pursuit Habits & Goals" 
                 width={300} 
                 height={600}
-                className="w-full h-full object-cover rounded-[32px]"
+                className="w-full h-full object-contain rounded-[32px]"
               />
               <div className="absolute inset-0 rounded-[32px] shadow-inner bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
             </div>
@@ -155,8 +155,8 @@ export default function Home() {
               <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
                 <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
-                    src="/images/screenshots/login-screen.png" 
-                    alt="Account Overview" 
+                    src="/images/screenshots/IMG_8654.PNG" 
+                    alt="Task Management" 
                     fill
                     sizes="250px"
                     style={{ 
@@ -169,7 +169,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Account Overview</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Task Management</p>
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
@@ -240,7 +240,7 @@ export default function Home() {
                 <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
                     src="/images/screenshots/IMG_8654.PNG" 
-                    alt="Task Management"
+                    alt="Task Management" 
                     fill
                     sizes="250px"
                     style={{ 
