@@ -4,19 +4,31 @@
 
 :root {
   --foreground-rgb: 248, 248, 248;
-  --background-rgb: 18, 18, 18;
+  --background-rgb: 15, 23, 41;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 248, 248, 248;
-    --background-rgb: 18, 18, 18;
+    --background-rgb: 15, 23, 41;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @layer components {
@@ -25,11 +37,11 @@ body {
   }
   
   .btn-primary {
-    @apply bg-primary text-white font-medium py-3 px-6 rounded-lg hover:bg-opacity-90 hover:scale-105 transition-all duration-300 shadow-lg;
+    @apply bg-gradient-to-r from-purple-500 to-primary text-white font-medium py-3 px-6 rounded-lg hover:from-purple-600 hover:to-primary/90 transition-all duration-300 shadow-lg;
   }
   
   .btn-secondary {
-    @apply bg-transparent text-white font-medium py-3 px-6 rounded-lg border-2 border-white hover:bg-white hover:text-dark hover:scale-105 transition-all duration-300;
+    @apply bg-transparent text-white font-medium py-3 px-6 rounded-lg border-2 border-white hover:bg-white/10 transition-all duration-300;
   }
   
   .section {
@@ -57,7 +69,7 @@ body {
   }
   
   .screenshot-card {
-    @apply bg-black rounded-2xl shadow-xl overflow-hidden border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2;
+    @apply bg-gray-900 p-8 rounded-2xl shadow-xl border border-gray-800 hover:border-primary hover:shadow-primary/20 hover:shadow-2xl transition-all duration-300;
   }
   
   .testimonial-card {
