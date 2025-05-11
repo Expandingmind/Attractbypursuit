@@ -69,16 +69,17 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="md:w-1/2 flex justify-center md:justify-end fade-in-delay-3">
+          <div className="md:w-1/2 flex justify-center md:justify-start fade-in-delay-3">
             <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-700">
+              <div className="absolute -bottom-10 -left-10 -right-10 h-20 bg-primary/20 rounded-full filter blur-2xl animate-pulse"></div>
               <Image 
                 src="/images/screenshots/IMG_8652.PNG" 
                 alt="Attract By Pursuit Bills & Expenses" 
                 width={300} 
                 height={600}
-                className="w-full h-full object-contain rounded-[32px]"
+                className="w-full h-full object-contain rounded-[32px] relative z-10"
               />
-              <div className="absolute inset-0 rounded-[32px] shadow-inner bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+              <div className="absolute inset-0 rounded-[32px] shadow-inner bg-gradient-to-t from-black/20 to-transparent pointer-events-none z-20"></div>
             </div>
           </div>
         </div>
