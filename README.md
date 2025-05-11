@@ -83,4 +83,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please reach out to contact@attractbypursuit.com 
+For any inquiries, please reach out to contact@attractbypursuit.com
