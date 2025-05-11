@@ -9,7 +9,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 group">
             <Image 
-              src="/images/logo for ABP.png" 
+              src="/images/logo-abp.png" 
               alt="Attract By Pursuit" 
               width={44} 
               height={44}
@@ -308,7 +308,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-8 md:mb-0">
               <Image 
-                src="/images/logo for ABP.png" 
+                src="/images/logo-abp.png" 
                 alt="Attract By Pursuit" 
                 width={44} 
                 height={44} 
