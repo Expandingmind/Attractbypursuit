@@ -100,9 +100,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="feature-card group">
               <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+                💰
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Net Worth</h3>
               <p className="text-gray-300">
@@ -112,9 +110,7 @@ export default function Home() {
             
             <div className="feature-card group">
               <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2" />
-                </svg>
+                💵
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Bills & Expenses</h3>
               <p className="text-gray-300">
@@ -124,9 +120,7 @@ export default function Home() {
             
             <div className="feature-card group">
               <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                </svg>
+                ✅
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Task Tracker</h3>
               <p className="text-gray-300">
@@ -136,10 +130,7 @@ export default function Home() {
             
             <div className="feature-card group">
               <div className="text-primary text-4xl mb-6 bg-primary/10 p-4 rounded-2xl w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
-                </svg>
+                🎯
               </div>
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">Habits & Goals</h3>
               <p className="text-gray-300">
