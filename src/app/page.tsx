@@ -6,7 +6,7 @@ export default function Home() {
     <main className="bg-deep-blue text-white">
       {/* Header Navigation */}
       <header className="fixed w-full z-50 bg-deep-blue/95 backdrop-blur-sm">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3 group">
             <Image 
               src="/images/logo-abp.png" 
@@ -51,8 +51,8 @@ export default function Home() {
       </header>
       
       {/* Hero Section with Gradient Background */}
-      <section className="pt-24 bg-gradient-to-br from-deep-blue via-deep-purple to-deep-blue">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 flex flex-col-reverse md:flex-row items-center">
+      <section className="pt-16 bg-gradient-to-br from-deep-blue via-deep-purple to-deep-blue">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col-reverse md:flex-row items-center">
           <div className="md:w-1/2 mt-12 md:mt-0">
             <h1 className="heading-xl mb-8 leading-tight fade-in animated-gradient-text">
               Take Control of Your Financial Journey
