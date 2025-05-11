@@ -152,15 +152,20 @@ export default function Home() {
           </div>
           
           <div className="flex flex-nowrap overflow-x-auto pb-8 gap-6 px-4 -mx-4 scrollbar-hide">
-            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
-                <div className="relative h-[520px] w-full">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
+                <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
                     src="/images/screenshots/login-screen.png" 
                     alt="Account Overview" 
                     fill
                     sizes="250px"
-                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    style={{ 
+                      objectFit: 'contain', 
+                      objectPosition: 'center',
+                      maxHeight: '100%',
+                      maxWidth: '100%'
+                    }}
                     priority
                   />
                 </div>
@@ -168,15 +173,20 @@ export default function Home() {
               <p className="text-center text-gray-400 mt-4 text-sm">Account Overview</p>
             </div>
             
-            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
-                <div className="relative h-[520px] w-full">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
+                <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
                     src="/images/screenshots/net-worth-summary.png" 
                     alt="Net Worth Tracking" 
                     fill
                     sizes="250px"
-                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    style={{ 
+                      objectFit: 'contain', 
+                      objectPosition: 'center',
+                      maxHeight: '100%',
+                      maxWidth: '100%'
+                    }}
                     priority
                   />
                 </div>
@@ -184,15 +194,20 @@ export default function Home() {
               <p className="text-center text-gray-400 mt-4 text-sm">Net Worth Tracking</p>
             </div>
             
-            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
-                <div className="relative h-[520px] w-full">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
+                <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
                     src="/images/screenshots/IMG_8652.PNG" 
                     alt="Bills & Expenses"
                     fill
                     sizes="250px"
-                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    style={{ 
+                      objectFit: 'contain', 
+                      objectPosition: 'center',
+                      maxHeight: '100%',
+                      maxWidth: '100%'
+                    }}
                     priority
                   />
                 </div>
@@ -200,15 +215,20 @@ export default function Home() {
               <p className="text-center text-gray-400 mt-4 text-sm">Bills & Expenses</p>
             </div>
             
-            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
-                <div className="relative h-[520px] w-full">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
+                <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
                     src="/images/screenshots/IMG_8655.PNG" 
                     alt="Habits & Goals"
                     fill
                     sizes="250px"
-                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    style={{ 
+                      objectFit: 'contain', 
+                      objectPosition: 'center',
+                      maxHeight: '100%',
+                      maxWidth: '100%'
+                    }}
                     priority
                   />
                 </div>
@@ -216,15 +236,20 @@ export default function Home() {
               <p className="text-center text-gray-400 mt-4 text-sm">Habits & Goal Tracking</p>
             </div>
             
-            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
-                <div className="relative h-[520px] w-full">
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
+                <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
                     src="/images/screenshots/IMG_8654.PNG" 
                     alt="Task Management"
                     fill
                     sizes="250px"
-                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    style={{ 
+                      objectFit: 'contain', 
+                      objectPosition: 'center',
+                      maxHeight: '100%',
+                      maxWidth: '100%'
+                    }}
                     priority
                   />
                 </div>
