@@ -153,14 +153,15 @@ export default function Home() {
           
           <div className="flex flex-nowrap overflow-x-auto pb-8 gap-6 px-4 -mx-4 scrollbar-hide">
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[500px] flex items-center justify-center p-1">
-                <div className="overflow-hidden h-full w-full flex items-center justify-center">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
+                <div className="relative h-[520px] w-full">
                   <Image 
                     src="/images/screenshots/login-screen.png" 
                     alt="Account Overview" 
-                    width={240} 
-                    height={480}
-                    className="object-contain h-full"
+                    fill
+                    sizes="250px"
+                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    priority
                   />
                 </div>
               </div>
@@ -168,14 +169,15 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[500px] flex items-center justify-center p-1">
-                <div className="overflow-hidden h-full w-full flex items-center justify-center">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
+                <div className="relative h-[520px] w-full">
                   <Image 
                     src="/images/screenshots/net-worth-summary.png" 
                     alt="Net Worth Tracking" 
-                    width={240}
-                    height={480}
-                    className="object-contain h-full"
+                    fill
+                    sizes="250px"
+                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    priority
                   />
                 </div>
               </div>
@@ -183,14 +185,15 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[500px] flex items-center justify-center p-1">
-                <div className="overflow-hidden h-full w-full flex items-center justify-center">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
+                <div className="relative h-[520px] w-full">
                   <Image 
                     src="/images/screenshots/IMG_8652.PNG" 
-                    alt="Bills & Expenses" 
-                    width={240}
-                    height={480}
-                    className="object-contain h-full"
+                    alt="Bills & Expenses"
+                    fill
+                    sizes="250px"
+                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    priority
                   />
                 </div>
               </div>
@@ -198,14 +201,15 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[500px] flex items-center justify-center p-1">
-                <div className="overflow-hidden h-full w-full flex items-center justify-center">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
+                <div className="relative h-[520px] w-full">
                   <Image 
                     src="/images/screenshots/IMG_8655.PNG" 
-                    alt="Habits & Goals" 
-                    width={240}
-                    height={480}
-                    className="object-contain h-full"
+                    alt="Habits & Goals"
+                    fill
+                    sizes="250px"
+                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    priority
                   />
                 </div>
               </div>
@@ -213,14 +217,15 @@ export default function Home() {
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.03] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[500px] flex items-center justify-center p-1">
-                <div className="overflow-hidden h-full w-full flex items-center justify-center">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl overflow-hidden shadow-xl h-[540px] flex items-center justify-center p-2">
+                <div className="relative h-[520px] w-full">
                   <Image 
                     src="/images/screenshots/IMG_8654.PNG" 
-                    alt="Task Management" 
-                    width={240}
-                    height={480}
-                    className="object-contain h-full"
+                    alt="Task Management"
+                    fill
+                    sizes="250px"
+                    style={{ objectFit: 'contain', objectPosition: 'center' }}
+                    priority
                   />
                 </div>
               </div>
