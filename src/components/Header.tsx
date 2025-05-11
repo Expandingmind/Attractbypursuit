@@ -29,9 +29,6 @@ const Header = () => {
             <Link href="#features" className="font-medium text-gray-300 hover:text-primary">
               Features
             </Link>
-            <Link href="#pricing" className="font-medium text-gray-300 hover:text-primary">
-              Pricing
-            </Link>
             <Link href="/privacy-policy" className="font-medium text-gray-300 hover:text-primary">
               Privacy Policy
             </Link>
@@ -68,9 +65,6 @@ const Header = () => {
             </Link>
             <Link href="#features" className="block font-medium text-gray-300 hover:text-primary">
               Features
-            </Link>
-            <Link href="#pricing" className="block font-medium text-gray-300 hover:text-primary">
-              Pricing
             </Link>
             <Link href="/privacy-policy" className="block font-medium text-gray-300 hover:text-primary">
               Privacy Policy
