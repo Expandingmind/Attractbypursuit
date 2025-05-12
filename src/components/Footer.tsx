@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 
 const Footer = () => {
   const pathname = usePathname();
-  const isLegalPage = pathname === '/privacy-policy' || pathname === '/terms-of-service';
+  const isLegalPage = pathname === '/privacy-policy' || pathname === '/terms-of-service' || pathname === '/contact';
 
   // Simple footer for legal pages
   if (isLegalPage) {
@@ -67,6 +67,11 @@ const Footer = () => {
               <li>
                 <Link href="/terms-of-service" className="nav-link">
                   Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="nav-link">
+                  Contact
                 </Link>
               </li>
             </ul>

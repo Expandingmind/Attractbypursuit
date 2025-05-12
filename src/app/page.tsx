@@ -385,6 +385,9 @@ export default function Home() {
                 <Link href="/terms-of-service" className="text-gray-300 hover:text-primary transition-colors">
                   Terms of Service
                 </Link>
+                <Link href="/contact" className="text-gray-300 hover:text-primary transition-colors">
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
