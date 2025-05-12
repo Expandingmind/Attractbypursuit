@@ -36,6 +36,9 @@ const Header = () => {
             <Link href="#testimonials" className="nav-link font-medium">
               Testimonials
             </Link>
+            <Link href="/contact" className="nav-link font-medium">
+              Contact
+            </Link>
             <Link href="#download" className="btn-primary">
               Download Now
             </Link>
@@ -73,6 +76,9 @@ const Header = () => {
             </Link>
             <Link href="#testimonials" className="nav-link block font-medium py-2">
               Testimonials
+            </Link>
+            <Link href="/contact" className="nav-link block font-medium py-2">
+              Contact
             </Link>
             <Link href="#download" className="block btn-primary text-center mt-4">
               Download Now
