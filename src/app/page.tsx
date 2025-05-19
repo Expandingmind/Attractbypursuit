@@ -156,8 +156,8 @@ export default function Home() {
               <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
                 <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
-                    src="/images/screenshots/IMG_8654.PNG" 
-                    alt="Task Management" 
+                    src="/images/1.jpg" 
+                    alt="Personal Dashboard" 
                     fill
                     sizes="250px"
                     style={{ 
@@ -170,36 +170,15 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Task Management</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Personal Dashboard</p>
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
                 <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
-                    src="/images/screenshots/net-worth-summary.png" 
-                    alt="Net Worth Tracking" 
-                    fill
-                    sizes="250px"
-                    style={{ 
-                      objectFit: 'contain', 
-                      objectPosition: 'center',
-                      maxHeight: '100%',
-                      maxWidth: '100%'
-                    }}
-                    priority
-                  />
-                </div>
-              </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Net Worth Tracking</p>
-            </div>
-            
-            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
-              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
-                <div className="relative h-[520px] w-full overflow-visible">
-                  <Image 
-                    src="/images/screenshots/IMG_8652.PNG" 
-                    alt="Bills & Expenses"
+                    src="/images/2.jpg" 
+                    alt="Bills & Expenses" 
                     fill
                     sizes="250px"
                     style={{ 
@@ -219,8 +198,8 @@ export default function Home() {
               <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
                 <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
-                    src="/images/screenshots/IMG_8655.PNG" 
-                    alt="Habits & Goals"
+                    src="/images/3.jpg" 
+                    alt="Habit Tracker"
                     fill
                     sizes="250px"
                     style={{ 
@@ -233,15 +212,15 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Habits & Goal Tracking</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Habit Tracker</p>
             </div>
             
             <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
               <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
                 <div className="relative h-[520px] w-full overflow-visible">
                   <Image 
-                    src="/images/screenshots/IMG_8654.PNG" 
-                    alt="Task Management" 
+                    src="/images/4.jpg" 
+                    alt="Daily Habits"
                     fill
                     sizes="250px"
                     style={{ 
@@ -254,7 +233,28 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-4 text-sm">Task Management</p>
+              <p className="text-center text-gray-400 mt-4 text-sm">Daily Habits</p>
+            </div>
+            
+            <div className="flex-shrink-0 w-[250px] transform hover:scale-[1.02] transition-all duration-500">
+              <div className="screenshot-glow bg-[#14141f] rounded-3xl shadow-xl h-[540px] flex items-center justify-center p-2 overflow-visible">
+                <div className="relative h-[520px] w-full overflow-visible">
+                  <Image 
+                    src="/images/5.jpg" 
+                    alt="Finances" 
+                    fill
+                    sizes="250px"
+                    style={{ 
+                      objectFit: 'contain', 
+                      objectPosition: 'center',
+                      maxHeight: '100%',
+                      maxWidth: '100%'
+                    }}
+                    priority
+                  />
+                </div>
+              </div>
+              <p className="text-center text-gray-400 mt-4 text-sm">Finances</p>
             </div>
           </div>
         </div>
