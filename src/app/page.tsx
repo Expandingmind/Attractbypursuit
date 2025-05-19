@@ -73,8 +73,8 @@ export default function Home() {
             <div className="relative w-[300px] h-[600px] bg-black rounded-[40px] border-[8px] border-gray-800 shadow-2xl overflow-visible transform hover:scale-[1.02] transition-all duration-700">
               <div className="absolute -inset-5 bg-primary/40 rounded-[50px] filter blur-xl animate-pulse"></div>
               <Image 
-                src="/images/screenshots/IMG_8652.PNG" 
-                alt="Attract By Pursuit Bills & Expenses" 
+                src="/images/1.jpg" 
+                alt="Attract By Pursuit Dashboard" 
                 width={300} 
                 height={600}
                 className="w-full h-full object-contain rounded-[32px] relative z-10"
